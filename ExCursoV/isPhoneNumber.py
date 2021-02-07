@@ -15,6 +15,8 @@ def isPhoneNumber(text):
         if not text[i].isdecimal():
             return False  # does not have last 4 digits
     return True  # "text" is a phone number!
+teste = 01
+teste = 02
 
 print('415-555-4242 is a phone number:')
 print(isPhoneNumber('415-555-4242'))
